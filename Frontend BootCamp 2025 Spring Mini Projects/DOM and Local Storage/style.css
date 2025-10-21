@@ -1,0 +1,28 @@
+/* part 1 with Majd  */
+
+/* The second example --> DOM Methods and Attribute Manipulation */
+.item { 
+    padding: 10px;
+    margin: 5px;
+    background-color: lightgray;
+}
+  
+/* The third example --> Using classList with add, remove, and toggle */
+.box {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 20%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+  .bg{
+    background-color: aquamarine;
+}
+  
+  /* The forth example --> Creating and Manipulating DOM Elements: Append, Prepend, Insert, and Remove */
+  #container {
+    border: 2px solid #444;
+    padding: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Dom & Local Storage</title>
+</head>
+
+<body>
+    <!-- part 1 with Majd -->
+
+    <!--The first example to understand the Dom -->
+    <div id="hello">Hello from HTML</div>
+
+    <!-- The second example (DOM Methods and Attribute Manipulation) -->
+    <h1 id="main-title">My Title from HTML</h1>
+    <div class="item">item 1</div>
+    <div class="item">item 2</div>
+    <div class="item">item 3</div>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <!-- The third example (Using classList with add, remove, and toggle) -->
+    <div id="box">I'm a box</div>
+    <button onclick="toggle()">Change Color</button>
+
+    <!-- The fourth example (Creating and Manipulating DOM Elements: Append, Prepend, Insert, and Remove) -->
+    <div id="container">
+        <p>Initial content inside the container</p>
+    </div>
+
+
+
+
+    <!-- part 2 with Rand -->
+
+    <h1 id="title">Session 2</h1>
+    <label for="yourName">Enter Youe Name:</label>
+    <input type="text" id="yourName">
+    <button id="btn" onmouseover="MtFunc2()">Click Me!</button>
+    <!-- We used another method similar to addeventlistner=>on(Event Name)="Function Name That define in js file" example =>onclick=" MtFunc3()"  -->
+
+    <div>
+        <input type="checkbox" id="vehicle" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br>
+    </div>
+
+    <p id="output"></p>
+    <p id="output2"></p>
+</body>
+
+</html>

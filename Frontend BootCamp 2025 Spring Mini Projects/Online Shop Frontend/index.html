@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/webp" href="https://symbl-cdn.com/i/webp/c6/223b621df8fe010c25cd90cd2c2556.webp">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Online Shop</title>
+</head>
+<body>
+
+    <header>
+
+        <h1 class="self-left">🛍️ MyShop</h1>
+        
+        <button type="button" id="dark-mode">
+            <!-- Stole this from somewhere -->
+            <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="white">  
+                <path stroke="none" d="M0 0h24v24H0z"/>
+                <path d="M16.2 4a9.03 9.03 0 1 0 3.9 12a6.5 6.5 0 1 1 -3.9 -12" />
+            </svg>
+        </button>
+        
+        <button type="button" id="cart">
+            <!-- Stole this from somewhere -->
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="white">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+            </svg>
+        </button>
+
+    </header>
+
+    <main>
+
+        <section id="items">
+            
+            <section id="search">
+                <input type="text" name="search-bar" id="search-bar" placeholder="search products" class="box-effect">
+            </section>
+
+            <h2 class="self-left">Our Products</h2>
+            <section id="gallery">
+
+                <div class="product box-effect" id="cotton-tshirt">
+                    <img class="pic" src="https://m.media-amazon.com/images/I/911n4nIhnpL._AC_UY1000_.jpg" alt="Cotton T-Shirt">
+                    <h3 class="product-name">Comfy Cotton T-Shirt</h3>
+                    <p>$<span class="price">22.99</span></p>
+                    <button type="button">🛒 ADD TO CART</button>
+                </div>
+
+                <div class="product box-effect" id="slim-fit-denim-jeans">
+                    <img class="pic" src="https://5.imimg.com/data5/CS/AB/MY-38742579/blue-boys-jeans-250x250.jpg" alt="Slim-Fit Denim Jeans">
+                    <h3 class="product-name">Slim-Fit Denim Jeans</h3>
+                    <p>$<span class="price">59.50</span></p>
+                    <button type="button">🛒 ADD TO CART</button>
+                </div>
+
+                <div class="product box-effect" id="leather-wallet">
+                    <img class="pic" src="https://m.media-amazon.com/images/I/41zpHuLOdzL._AC_QL92_SH45_UL240_SR240,220_.jpg" alt="Leather Wallet">
+                    <h3 class="product-name">Minimalist Leather Wallet</h3>
+                    <p>$<span class="price">35.00</span></p>
+                    <button type="button">🛒 ADD TO CART</button>
+                </div>
+
+                <div class="product box-effect" id="canvas-sneakers">
+                    <img class="pic" src="https://s3.kh1.co/__image/w=600,h=600,fit=cover/3453e3436886cc462d97f925ba998e5a7cdc4377.jpg" alt="Canvas Sneakers">
+                    <h3 class="product-name">Classic Canvas Sneakers</h3>
+                    <p>$<span class="price">45.75</span></p>
+                    <button type="button">🛒 ADD TO CART</button>
+                </div>
+
+                <div class="product box-effect" id="wireless-headphones">
+                    <img class="pic" src="https://i5.walmartimages.com/seo/VILINICE-Noise-Cancelling-Headphones-Wireless-Bluetooth-Over-Ear-Headphones-with-Microphone-Black-Q8_b994b99c-835f-42fc-8094-9f6be0f9273b.be59955399cdbd1c25011d4a4251ba9b.jpeg" alt="Wireless Headphones">
+                    <h3 class="product-name">Wireless Noise-Cancelling Headphones</h3>
+                    <p>$<span class="price">120.00</span></p>
+                    <button type="button">🛒 ADD TO CART</button>
+                </div>
+
+                <div class="product box-effect" id="bluetooth-speaker">
+                    <img class="pic" src="https://m.media-amazon.com/images/I/718yxonHN8L.jpg" alt="Bluetooth Speaker">
+                    <h3 class="product-name">Portable Bluetooth Speaker</h3>
+                    <p>$<span class="price">75.99</span></p>
+                    <button type="button">🛒 ADD TO CART</button>
+                </div>
+
+                <div class="product box-effect" id="sung-jun-woo-outfit">
+                    <img class="pic" src="https://ae-pic-a1.aliexpress-media.com/kf/Se3b6cdec82d34885a466a7f09669f10bo.jpg" alt="Sung Jin Woo Outfit">
+                    <h3 class="product-name">Sung Jin Woo's Outfit</h3>
+                    <p>$<span class="price">289.99</span></p>
+                    <button type="button">🛒 ADD TO CART</button>
+                </div>
+
+                <div class="product box-effect" id="joker-mask">
+                    <img class="pic" src="https://m.media-amazon.com/images/I/51SC56c90sL._AC_SS300_.jpg" alt="Joker Mask">
+                    <h3 class="product-name">Joker's Mask</h3>
+                    <p>$<span class="price">24.99</span></p>
+                    <button type="button">🛒 ADD TO CART</button>
+                </div>
+
+                <div class="product box-effect" id="plus-ultra">
+                    <img class="pic" src="https://cdn11.bigcommerce.com/s-2gncvdgiio/images/stencil/1280x1280/products/73624/155457/All_Might_My_Hero_Academia_Plus_Ultra_Znl_311019__90599.1587141724.jpg?c=1" alt="All-Might Plus Ultra">
+                    <h3 class="product-name">Plus-Ultra Poster</h3>
+                    <p>$<span class="price">29.99</span></p>
+                    <button type="button">🛒 ADD TO CART</button>
+                </div>
+
+                <div class="product box-effect" id="minecraft-tourch">
+                    <img class="pic" src="https://shop.minecraft.net/cdn/shop/files/MC-LYTNC-47-MF1_1080x.jpg?v=1698335821" alt="Minecraft Tourch">
+                    <h3 class="product-name">Minecraft Tourch</h3>
+                    <p>$<span class="price">39.99</span></p>
+                    <button type="button">🛒 ADD TO CART</button>
+                </div>
+                </div>
+
+                <div class="product box-effect" id="monster-poster">
+                    <img class="pic" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/826ce2f3-1d3a-4ca5-834e-06ec10744b27/df5nsoh-da09dd07-b784-4147-9396-94c2d05709a6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgyNmNlMmYzLTFkM2EtNGNhNS04MzRlLTA2ZWMxMDc0NGIyN1wvZGY1bnNvaC1kYTA5ZGQwNy1iNzg0LTQxNDctOTM5Ni05NGMyZDA1NzA5YTYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.JfgM389GmC02vlgz-6kjwtW-SEXsEk8h8vbrshVw3Ck" alt="Monster Poster">
+                    <h3 class="product-name">Monster Poster</h3>
+                    <p>$<span class="price">29.99</span></p>
+                    <button type="button">🛒 ADD TO CART</button>
+                </div>
+
+                <div class="product box-effect" id="aot-keychain">
+                    <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZBmqSzjSZMmy4bnCNmLLVq9bonXJabGg5Og&s" alt="AOT Keychain">
+                    <h3 class="product-name">Attack on Titans Keychain</h3>
+                    <p>$<span class="price">24.99</span></p>
+                    <button type="button">🛒 ADD TO CART</button>
+                </div>
+
+            </section>
+
+        </section>
+        
+        <aside class="box-effect">
+            
+            <section class="title">
+                <h2 class="self-left">Your Cart</h2>
+                <p><span id="items-count">0</span> items</p>
+            </section>
+
+            <div class="seperator"></div>
+            
+            <section id="current-inventory">
+                <p>Your cart is currently empty</p>
+                <div class="inventory-item box-effect" id="clone">
+                    <img src="https://www.clker.com/cliparts/6/S/W/2/g/t/transparent-red-no-circle-md.png" alt="product picture">
+                    <section class="description">
+                        <h4 class="title">Title</h4>
+                        <section class="quantity">
+                            <button type="button" class="plus">+</button>
+                            <p class="count">0</p>
+                            <button type="button" class="minus">-</button>
+                        </section>
+                    </section>
+                </div>
+            </section>
+
+            <div class="seperator"></div>
+            
+            <section class="title">
+                <h2 class="self-left">Total: </h3>
+                <p>$<span id="total">0.00</span></p>
+            </section>
+
+            <button type="button" id="clear">CLEAR CART</button>
+            <button type="button" id="checkout">PROCEED TO CHECKOUT</button>
+
+        </aside>
+
+    </main>
+
+    <footer>
+        <p class="box-effect">Made by Bara Wazwaz</p>
+    </footer>
+
+</body>
+</html>

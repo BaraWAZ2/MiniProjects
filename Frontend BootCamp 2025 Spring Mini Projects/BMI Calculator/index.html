@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+
+    <link rel="icon" type="image/jpg" href="https://png.pngtree.com/png-vector/20190115/ourmid/pngtree-vector-calculator-icon-png-image_319747.jpg">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <form>
+        <p>BMI Calculator</p>
+
+        <label for="height">
+            <p>Height (cm) : </p>
+            <input type="number" name="height" id="height" required oninput="updateResult()">
+        </label>
+
+        <label for="weight">
+            <p>Weight (kg) : </p>
+            <input type="number" name="weight" id="weight" required oninput="updateResult()">
+        </label>
+
+        <!-- Instead of preventDefault in the script file, type="button" is sufficient -->
+        <button type="button" id="calculate">Calculate BMI</button>
+
+        <div id="message">
+            <p id="results">Try it out!</p>
+            <p id="classify"></p>
+        </div>
+
+    </form>
+    <footer>
+        <p>Made by Bara Wazwaz</p>
+    </footer>
+</body>
+</html>
